@@ -1,5 +1,3 @@
-import 'package:anagram/anagram.dart' as anagram;
+import 'package:anagram/anagram.dart' as groups;
 
-void main(List<String> arguments) {
-  print('Hello world: ${anagram.calculate()}!');
-}
+void main(List<String> arguments) {}
