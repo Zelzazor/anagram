@@ -25,14 +25,14 @@ void main() {
   });
 
   test('Argumento a null', () {
-    expect(isAnagram(a: null, b: 'romo'), throwsArgumentError);
+    expect(() => isAnagram(a: null, b: 'romo'), throwsArgumentError);
   });
 
   test('Argumento b null', () {
-    expect(isAnagram(a: 'moro', b: null), throwsArgumentError);
+    expect(() => isAnagram(a: 'moro', b: null), throwsArgumentError);
   });
 
   test('Argumentos null', () {
-    expect(isAnagram(a: null, b: null), throwsArgumentError);
+    expect(() => isAnagram(a: null, b: null), throwsArgumentError);
   });
 }
