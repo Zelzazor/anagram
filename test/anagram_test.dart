@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:anagram/anagram.dart';
 import 'package:test/test.dart';
 
